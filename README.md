@@ -1,0 +1,1 @@
+# FARM Stack (FastAPI, React, MongoDB)
