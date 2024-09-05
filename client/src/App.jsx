@@ -15,6 +15,7 @@ function App() {
           <Route path="page-one" element={<PageOne />}></Route>
           <Route path="page-two" element={<PageTwo />}></Route>
         </Route>
+        <Route path="*" element={<Navigate to="/" />} />
       </Routes>
     </>
   );
